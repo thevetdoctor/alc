@@ -5,10 +5,10 @@ self.addEventListener('install', function (event) {
         caches.open(cacheName).then(function (cache) {
             return cache.addAll([
                 '/',
-                'currencyApi.html',
-                'idb.js',
-                'jakeidb.js',
-                'navigator.js',
+                './currencyApi.html',
+                './js/idb.js',
+                './js/jakeidb.js',
+                './navigator.js',
                 'https://free.currencyconverterapi.com/api/v5/currencies',
                 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',
             ])
