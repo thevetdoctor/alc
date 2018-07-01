@@ -5,7 +5,7 @@ self.addEventListener('install', function (event) {
         caches.open(cacheName).then(function (cache) {
             return cache.addAll([
                 '/',
-                './currencyApi.html',
+                './index.html',
                 './js/idb.js',
                 './js/jakeidb.js',
                 './navigator.js',
